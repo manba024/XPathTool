@@ -1,0 +1,25 @@
+# 虚拟环境
+venv/
+env/
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# API 密钥（如果有配置文件）
+.env.local
+config.ini
