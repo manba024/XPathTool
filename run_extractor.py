@@ -23,9 +23,10 @@ def main():
     os.chdir(script_dir)
     
     # 构建完整命令
+    elements_str = ' '.join(f"'{elem}'" for elem in elements)
     cmd = [
         "bash", "-c", 
-        f"source venv/bin/activate && python xpath_extractor.py '{url}' {' '.join(f\"'{elem}'\" for elem in elements)}"
+        f"source venv/bin/activate && python xpath_extractor.py '{url}' {elements_str}"
     ]
     
     try:
