@@ -1,0 +1,13 @@
+# URL列表文件
+# 每行一个URL，以#开头的行会被忽略
+# 支持http和https协议
+
+# 示例URL
+https://example.com/article1
+https://example.com/article2
+https://news.example.com/story1
+https://blog.example.com/post1
+
+# 添加更多URL...
+https://example.com/article3
+https://example.com/article4
