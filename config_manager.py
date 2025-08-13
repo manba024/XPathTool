@@ -20,7 +20,9 @@ class ConfigManager:
                 "max_concurrent", "request_timeout", "llm_timeout", 
                 "retry_count", "output_file", "urls", "urls_file",
                 "exclude_urls_file", "output_format", "api_key", 
-                "api_base", "model"
+                "api_base", "model", "use_async", "max_http_concurrent",
+                "max_llm_concurrent", "max_global_concurrent", "batch_size", 
+                "connection_pool_size", "max_tokens", "temperature", "batch_rest_time"
             ]
         }
     
@@ -75,6 +77,52 @@ class ConfigManager:
         
         if "retry_count" in config and not isinstance(config["retry_count"], int):
             raise Exception("retry_count 必须是整数")
+        
+        # 验证异步配置参数
+        if "use_async" in config and not isinstance(config["use_async"], bool):
+            raise Exception("use_async 必须是布尔值")
+        
+        if "max_http_concurrent" in config and not isinstance(config["max_http_concurrent"], int):
+            raise Exception("max_http_concurrent 必须是整数")
+        
+        if "max_http_concurrent" in config and config["max_http_concurrent"] < 1:
+            raise Exception("max_http_concurrent 必须大于0")
+        
+        if "max_llm_concurrent" in config and not isinstance(config["max_llm_concurrent"], int):
+            raise Exception("max_llm_concurrent 必须是整数")
+        
+        if "max_llm_concurrent" in config and config["max_llm_concurrent"] < 1:
+            raise Exception("max_llm_concurrent 必须大于0")
+        
+        if "max_global_concurrent" in config and not isinstance(config["max_global_concurrent"], int):
+            raise Exception("max_global_concurrent 必须是整数")
+        
+        if "max_global_concurrent" in config and config["max_global_concurrent"] < 1:
+            raise Exception("max_global_concurrent 必须大于0")
+        
+        if "max_tokens" in config and not isinstance(config["max_tokens"], int):
+            raise Exception("max_tokens 必须是整数")
+        
+        if "max_tokens" in config and config["max_tokens"] < 1:
+            raise Exception("max_tokens 必须大于0")
+        
+        if "temperature" in config and not isinstance(config["temperature"], (int, float)):
+            raise Exception("temperature 必须是数字")
+        
+        if "temperature" in config and (config["temperature"] < 0 or config["temperature"] > 2):
+            raise Exception("temperature 必须在0-2之间")
+        
+        if "batch_rest_time" in config and not isinstance(config["batch_rest_time"], (int, float)):
+            raise Exception("batch_rest_time 必须是数字")
+        
+        if "batch_rest_time" in config and config["batch_rest_time"] < 0:
+            raise Exception("batch_rest_time 必须大于等于0")
+        
+        if "batch_size" in config and not isinstance(config["batch_size"], int):
+            raise Exception("batch_size 必须是整数")
+        
+        if "batch_size" in config and config["batch_size"] < 1:
+            raise Exception("batch_size 必须大于0")
     
     def _normalize_config(self, config: Dict[str, Any], config_path: str) -> Dict[str, Any]:
         """标准化配置格式"""
@@ -86,13 +134,33 @@ class ConfigManager:
             "retry_count": 3,
             "output_file": "batch_results.csv",
             "model": "Pro/deepseek-ai/DeepSeek-R1",
-            "api_base": "https://api.siliconflow.cn/v1"
+            "api_base": "https://api.siliconflow.cn/v1",
+            "use_async": True,
+            "max_http_concurrent": 20,
+            "max_llm_concurrent": 5,
+            "max_global_concurrent": 50,
+            "batch_size": 10,
+            "connection_pool_size": 100,
+            "max_tokens": 1000,
+            "temperature": 0.1,
+            "batch_rest_time": 0.1
         }
         
         # 应用默认值
         for key, value in defaults.items():
             if key not in config:
-                config[key] = value
+                # 如果有settings对象，优先从settings中获取
+                if "settings" in config and key in config["settings"]:
+                    config[key] = config["settings"][key]
+                else:
+                    config[key] = value
+        
+        # 处理settings对象中的配置
+        if "settings" in config:
+            settings = config["settings"]
+            for key, value in settings.items():
+                if key in defaults:
+                    config[key] = value
         
         # 处理URL来源
         urls = []
@@ -172,12 +240,21 @@ class ConfigManager:
         """创建配置文件模板"""
         template = {
             "settings": {
-                "max_concurrent": 5,
+                "max_concurrent": 10,
                 "request_timeout": 30,
                 "llm_timeout": 60,
                 "retry_count": 3,
-                "output_file": "batch_results.csv",
-                "model": "Pro/deepseek-ai/DeepSeek-R1"
+                "output_file": "async_batch_results.csv",
+                "model": "Pro/deepseek-ai/DeepSeek-R1",
+                "use_async": True,
+                "max_http_concurrent": 20,
+                "max_llm_concurrent": 5,
+                "max_global_concurrent": 50,
+                "batch_size": 10,
+                "connection_pool_size": 100,
+                "max_tokens": 1000,
+                "temperature": 0.1,
+                "batch_rest_time": 0.1
             },
             "target_elements": [
                 "标题",
@@ -201,9 +278,9 @@ class ConfigManager:
         try:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(template, f, indent=2, ensure_ascii=False)
-            print(f"配置文件模板已创建: {output_path}")
+            print("配置文件模板已创建: {}".format(output_path))
         except Exception as e:
-            raise Exception(f"创建配置文件模板失败: {str(e)}")
+            raise Exception("创建配置文件模板失败: {}".format(str(e)))
     
     def validate_config_file(self, config_path: str) -> bool:
         """验证配置文件"""
@@ -226,14 +303,18 @@ class ConfigManager:
             if not os.path.exists(output_dir):
                 print(f"警告: 输出目录不存在: {output_dir}")
             
-            print(f"✓ 配置文件验证通过")
+            print("OK 配置文件验证通过")
             print(f"  - URL数量: {len(config['urls'])}")
             print(f"  - 目标元素: {len(config['target_elements'])}")
+            print(f"  - 异步模式: {'启用' if config.get('use_async', True) else '禁用'}")
             print(f"  - 并发数: {config['max_concurrent']}")
+            print(f"  - HTTP并发: {config.get('max_http_concurrent', 20)}")
+            print(f"  - LLM并发: {config.get('max_llm_concurrent', 5)}")
+            print(f"  - 批处理大小: {config.get('batch_size', 10)}")
             print(f"  - 输出文件: {config['output_file']}")
             
             return True
             
         except Exception as e:
-            print(f"✗ 配置文件验证失败: {str(e)}")
+            print("ERROR 配置文件验证失败: {}".format(str(e)))
             return False

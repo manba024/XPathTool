@@ -1,0 +1,148 @@
+﻿URL,元素名称,XPath,状态,内容预览,匹配数量,处理时间(秒),错误信息
+http://www.bpf.cas.cn/tzgl/201903/t20190327_4686698.html,标题,//div[@class='article clearfix']/h3,成功,中科院“十三五”科教基础设施四个重点项目可行性研究报告获国家发改委批复,1,137.01,
+http://www.bpf.cas.cn/tzgl/201903/t20190327_4686698.html,正文内容,//article[@id='zoom'],成功,3月18日，我院资源与能源绿色转化技术创新平台、新能源技术与材料综合研发平台、上海科技创新中心协同创新平台以及纳米真空互联材料制备及分析测试平台四个“十三五”科教基础设施重点项目可行性研究报告获国家发改委批复。这四个项目共14个建设内容，涉及资源、先进材料、新能源、量子信息、人口健康领域等众多方面的新技术研发与制备。 　　以上项目在建设完成后，将为突破绿色过程工程研发、大规模储能及相关关键材料技术...,1,137.01,
+http://www.bpf.cas.cn/tzgl/201903/t20190327_4686698.html,发文时间,"//div[@class='article-info' and starts-with(normalize-space(), '时间：')][1]",失败,,0,137.01,
+http://www.bpf.cas.cn/tzgl/201903/t20190327_4686698.html,发文机构,//title,成功,中科院“十三五”科教基础设施四个重点项目可行性研究报告获国家发改委批复----中国科学院条件保障与财务局,1,137.01,
+http://www.bpf.cas.cn/tzgl/201903/t20190327_4686698.html,附件,//div[@class='appendix'],成功,附件：,1,137.01,
+https://www.cae.cn/cae/html/main/col4/2018-01/04/20180104144453096723240_1.html,标题,//title/text(),成功,“中英城市洪涝防治研究影响力项目”申报指南,1,105.34,
+https://www.cae.cn/cae/html/main/col4/2018-01/04/20180104144453096723240_1.html,正文内容,//div[@class='top_text_main'],成功,希望两院院士作为科技界杰出代表，冲锋在前、勇挑重担，当好科技前沿的开拓者、重大任务的担纲者、青年人才成长的引领者、科学家精神的示范者，为我国科技事业发展再立新功！,2,105.34,
+https://www.cae.cn/cae/html/main/col4/2018-01/04/20180104144453096723240_1.html,发文时间,,失败,,0,105.34,
+https://www.cae.cn/cae/html/main/col4/2018-01/04/20180104144453096723240_1.html,发文机构,,失败,,0,105.34,
+https://www.cae.cn/cae/html/main/col4/2018-01/04/20180104144453096723240_1.html,附件,,失败,,0,105.34,
+https://casad.cas.cn/xbjs2022/gzzd/yszc/,标题,//div[@class='dh_gzzd left']/following-sibling::div[@class='row']/div[@class='col-md-6' and text()='院士章程'],失败,,0,179.35,
+https://casad.cas.cn/xbjs2022/gzzd/yszc/,正文内容,//div[@class='ysdh_jjtxt'],成功,"中国科学院院士（以下简称院士）是国家设立的科学技术方面的最高学术称号，为终身荣誉。
+院士增选和外籍院士选举每两年一次。遵守宪法和法律，热爱祖国、品行端正、学风正派的中国公民，在科学技术领域取得了系统性和创造性的重要成就，并为中国科学技术事业或人类文明进步做出了突出贡献，可被推荐并当选为院士。在国际上具有很高学术地位，对促进中外科技合作与交流作出突出贡献的非中国公民，可被推荐并当选为外籍院士。",5,179.35,
+https://casad.cas.cn/xbjs2022/gzzd/yszc/,发文时间,"//div[contains(@class, 'time') or contains(@class, 'date')]",失败,,0,179.35,
+https://casad.cas.cn/xbjs2022/gzzd/yszc/,发文机构,"//div[contains(@class, 'source') or contains(@class, 'org')]",失败,,0,179.35,
+https://casad.cas.cn/xbjs2022/gzzd/yszc/,附件,"//a[contains(@href, '.pdf') or contains(@href, '.doc') or contains(@href, '.xls')]",失败,,0,179.35,
+http://www.bpf.cas.cn/sew_xmjz/201912/t20191231_4729888.html,标题,"//div[contains(concat(' ', normalize-space(@class), ' '), ' article ') and contains(concat(' ', normalize-space(@class), ' '), ' clearfix ')]/following-sibling::h3[1]",失败,,0,323.94,
+http://www.bpf.cas.cn/sew_xmjz/201912/t20191231_4729888.html,正文内容,//article[@id='zoom'],成功,"为保障冬季在建项目施工安全，进一步落实安全责任，2019年12月27日，中科院党组成员、秘书长邓麦村，条件保障与财务局副局长高军、总工程师袁伟带领安全检查组到化学所和声学所开展冬季在施工程及实验室安全检查工作。声学所所长王小民，化学所党委书记、副所长王笃金、副所长黄仁权陪同检查。
+　　检查组听取了研究所关于在建工程项目施工现场管理和安全管理工作的汇报，现场检查了研究所实验室安全、建筑工地现场施工安...",1,323.94,
+http://www.bpf.cas.cn/sew_xmjz/201912/t20191231_4729888.html,发文时间,"//div[contains(concat(' ', normalize-space(@class), ' '), ' article-info ') and contains(concat(' ', normalize-space(@class), ' '), ' tc ')]",成功,时间：2019-12-31来源：字体大小 [ 大 中 小 ],1,323.94,
+http://www.bpf.cas.cn/sew_xmjz/201912/t20191231_4729888.html,发文机构,//title,成功,邓麦村秘书长带队检查冬季在施工程及实验室安全----中国科学院条件保障与财务局,1,323.94,
+http://www.bpf.cas.cn/sew_xmjz/201912/t20191231_4729888.html,附件,//div[@class='appendix']//a,失败,,0,323.94,
+http://www.gov.cn/zhengce/content/2019-04/15/content_5382991.htm,标题,//div[@class='share-title'],成功,中华人民共和国政府信息公开条例,2,222.54,
+http://www.gov.cn/zhengce/content/2019-04/15/content_5382991.htm,正文内容,//div[@id='UCAP-CONTENT'],成功,"中华人民共和国国务院令
+第711号
+
+
+现公布修订后的《中华人民共和国政府信息公开条例》，自2019年5月15日起施行。
+总理　　李克强              
+2019年4月3日          
+
+
+中华人民共和国政府信息公开条例
+（2007年4月5日中华人民共和国国务院令第492号公布　2019年4月3日中华人民共和国国务院令第711号修订）
+
+
+第一章　总　　则
+
+
+第一条　为了保障...",1,222.54,
+http://www.gov.cn/zhengce/content/2019-04/15/content_5382991.htm,发文时间,"//div[contains(@class, 'mxxgkwrap')]//h2[contains(., '成文日期：')]/following-sibling::text()[1]",成功,,1,222.54,
+http://www.gov.cn/zhengce/content/2019-04/15/content_5382991.htm,发文机构,"//div[contains(@class, 'mxxgkwrap')]//h2[contains(., '发文机关：')]/following-sibling::text()[1]",成功,,1,222.54,
+http://www.gov.cn/zhengce/content/2019-04/15/content_5382991.htm,附件,"//div[@id='UCAP-CONTENT']//a[contains(., '附件')]",失败,,0,222.54,
+https://www.cas.cn/xxgkml/xxgkgzxx/ndbg/ndbg/202303/t20230331_4882492.shtml,标题,//title,成功,2022年度报告----中国科学院,1,155.98,
+https://www.cas.cn/xxgkml/xxgkgzxx/ndbg/ndbg/202303/t20230331_4882492.shtml,正文内容,//div[@class='fzqh_txt'][1],成功,"加快打造原始创新策源地，加快突破关键核心技术，努力抢占科技制高点，为把我国建设成为世界科技强国作出新的更大的贡献。
+——习近平总书记在致中国科学院建院70周年贺信中作出的“两加快一努力”重要指示要求",1,155.98,
+https://www.cas.cn/xxgkml/xxgkgzxx/ndbg/ndbg/202303/t20230331_4882492.shtml,发文时间,"//div[contains(@class,'model_title') and contains(text(),'工作动态')]/following-sibling::div[contains(@class,'model_bot')]//text()[contains(.,'年')]",失败,,0,155.98,
+https://www.cas.cn/xxgkml/xxgkgzxx/ndbg/ndbg/202303/t20230331_4882492.shtml,发文机构,"//div[@class='ykjj_txt']/text()[contains(.,'中国科学院')]",失败,,0,155.98,
+https://www.cas.cn/xxgkml/xxgkgzxx/ndbg/ndbg/202303/t20230331_4882492.shtml,附件,"//div[@class='kxyj_box']/a[contains(@href,'.pdf') or contains(@href,'.doc')]",失败,,0,155.98,
+https://www.cae.cn/cae/html/main/col6/column_6_1.html,标题,//title,成功,中国工程院,2,107.31,
+https://www.cae.cn/cae/html/main/col6/column_6_1.html,正文内容,//div[@class='top_text_main'],成功,希望两院院士作为科技界杰出代表，冲锋在前、勇挑重担，当好科技前沿的开拓者、重大任务的担纲者、青年人才成长的引领者、科学家精神的示范者，为我国科技事业发展再立新功！,2,107.31,
+https://www.cae.cn/cae/html/main/col6/column_6_1.html,发文时间,//div[@class='top_left_date'],成功,,1,107.31,
+https://www.cae.cn/cae/html/main/col6/column_6_1.html,发文机构,//div[@class='top_text_from'],成功,——习近平总书记在全国科技大会、国家科学技术奖励大会、两院院士大会上的讲话,2,107.31,
+https://www.cae.cn/cae/html/main/col6/column_6_1.html,附件,"//a[contains(@href,'.pdf') or contains(@href,'.doc') or contains(@href,'.xls') or contains(@href,'.rar') or contains(@href,'.zip')]",失败,,0,107.31,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkml/201412/t20141201_4265577.shtml,标题,//title,成功,中国科学院机关信息公开目录----中国科学院,1,198.1,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkml/201412/t20141201_4265577.shtml,正文内容,//div[@class='ykjj_txt'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,198.1,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkml/201412/t20141201_4265577.shtml,发文时间,"//div[contains(@class, 'time') or contains(@class, 'date')]",失败,,0,198.1,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkml/201412/t20141201_4265577.shtml,发文机构,"//div[contains(@class, 'source') or contains(@class, 'institution')]",失败,,0,198.1,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkml/201412/t20141201_4265577.shtml,附件,"//a[contains(@href, '.doc') or contains(@href, '.pdf') or contains(@href, '.xls') or contains(@class, 'attachment')]",失败,,0,198.1,
+https://www.cas.cn/xxgkml/zgkxyyb/czjf/ysjs/202507/P020250725575489275775.pdf,标题,,错误,,0,2.14,获取网页失败: 'utf-8' codec can't decode byte 0xc7 in position 12: invalid continuation byte
+https://www.cas.cn/xxgkml/zgkxyyb/czjf/ysjs/202507/P020250725575489275775.pdf,正文内容,,错误,,0,2.14,获取网页失败: 'utf-8' codec can't decode byte 0xc7 in position 12: invalid continuation byte
+https://www.cas.cn/xxgkml/zgkxyyb/czjf/ysjs/202507/P020250725575489275775.pdf,发文时间,,错误,,0,2.14,获取网页失败: 'utf-8' codec can't decode byte 0xc7 in position 12: invalid continuation byte
+https://www.cas.cn/xxgkml/zgkxyyb/czjf/ysjs/202507/P020250725575489275775.pdf,发文机构,,错误,,0,2.14,获取网页失败: 'utf-8' codec can't decode byte 0xc7 in position 12: invalid continuation byte
+https://www.cas.cn/xxgkml/zgkxyyb/czjf/ysjs/202507/P020250725575489275775.pdf,附件,,错误,,0,2.14,获取网页失败: 'utf-8' codec can't decode byte 0xc7 in position 12: invalid continuation byte
+https://www.cae.cn/cae/html/main/col324/column_324_1.html,标题,//title,成功,中国工程院,2,135.68,
+https://www.cae.cn/cae/html/main/col324/column_324_1.html,正文内容,//div[@class='top_text_main'],成功,希望两院院士作为科技界杰出代表，冲锋在前、勇挑重担，当好科技前沿的开拓者、重大任务的担纲者、青年人才成长的引领者、科学家精神的示范者，为我国科技事业发展再立新功！,2,135.68,
+https://www.cae.cn/cae/html/main/col324/column_324_1.html,发文时间,//div[@class='top_left_date'],成功,,1,135.68,
+https://www.cae.cn/cae/html/main/col324/column_324_1.html,发文机构,//div[@class='top_text_from'],成功,——习近平总书记在全国科技大会、国家科学技术奖励大会、两院院士大会上的讲话,2,135.68,
+https://www.cae.cn/cae/html/main/col324/column_324_1.html,附件,"//a[contains(@href, '.pdf') or contains(@href, '.doc') or contains(@href, '.xls')]",失败,,0,135.68,
+https://www.cas.cn/tz/201904/t20190426_4690054.shtml,标题,/html/head/title,成功,中国科学院“地球大数据科学工程”A类战略性先导科技专项2019年度科学数据择优出版计划----中国科学院,1,151.7,
+https://www.cas.cn/tz/201904/t20190426_4690054.shtml,正文内容,//div[@class='xdzx'],成功,"中国科学院院级科技专项体系包括战略性先导科技专项、重点部署科研专项、科技人才专项、科技合作专项、科技平台专项5类一级专项，实行分类定位、分级管理。
+为方便科研人员全面快捷了解院级科技专项信息并进行项目申报等相关操作，特搭建中国科学院院级科技专项信息管理服务平台。了解科技专项更多内容，请点击进入→",1,151.7,
+https://www.cas.cn/tz/201904/t20190426_4690054.shtml,发文时间,,失败,,0,151.7,
+https://www.cas.cn/tz/201904/t20190426_4690054.shtml,发文机构,,失败,,0,151.7,
+https://www.cas.cn/tz/201904/t20190426_4690054.shtml,附件,,失败,,0,151.7,
+http://www.bpf.cas.cn/xxhgz/201709/t20170906_4613503.html,标题,//div[@class='sub_right'],成功,"首页 > 信息化工作
+
+中科院条件保障与财务局召开“服务型基建信息系统建设及应用”项目试点工作启动会
+
+2017年09月06日 10:49:00 　来源：天津工业生物技术研究所    字体大小[大中小]
+
+　　9月4日，中科院条件保障与财务局在中国科学院天津工业生物技术研究所召开了“服务型基建信息系统建设及应用”项目试点工作启动会。条财局副局长高军出席会议并讲话。 　　“服务型基建信息系统建设及应...",1,144.14,
+http://www.bpf.cas.cn/xxhgz/201709/t20170906_4613503.html,正文内容,//div[@class='TRS_Editor'],成功,9月4日，中科院条件保障与财务局在中国科学院天津工业生物技术研究所召开了“服务型基建信息系统建设及应用”项目试点工作启动会。条财局副局长高军出席会议并讲话。 　　“服务型基建信息系统建设及应用”项目是中科院“十三五”基建管理信息化工作中的重要组成部分，目标是构建面向中国科学院组织架构体系内的智慧服务型基建管理信息系统。该系统基于云计算及移动互联网，通过多终端等互联网+基建模式，满足中科院机关、分院...,1,144.14,
+http://www.bpf.cas.cn/xxhgz/201709/t20170906_4613503.html,发文时间,//div[@class='bgi_list'],成功,"2017年09月06日 10:49:00 　来源：天津工业生物技术研究所    字体大小[大中小]
+
+　　9月4日，中科院条件保障与财务局在中国科学院天津工业生物技术研究所召开了“服务型基建信息系统建设及应用”项目试点工作启动会。条财局副局长高军出席会议并讲话。 　　“服务型基建信息系统建设及应用”项目是中科院“十三五”基建管理信息化工作中的重要组成部分，目标是构建面向中国科学院组织架构体系内的智...",1,144.14,
+http://www.bpf.cas.cn/xxhgz/201709/t20170906_4613503.html,发文机构,//div[@class='bgi_list'],成功,"2017年09月06日 10:49:00 　来源：天津工业生物技术研究所    字体大小[大中小]
+
+　　9月4日，中科院条件保障与财务局在中国科学院天津工业生物技术研究所召开了“服务型基建信息系统建设及应用”项目试点工作启动会。条财局副局长高军出席会议并讲话。 　　“服务型基建信息系统建设及应用”项目是中科院“十三五”基建管理信息化工作中的重要组成部分，目标是构建面向中国科学院组织架构体系内的智...",1,144.14,
+http://www.bpf.cas.cn/xxhgz/201709/t20170906_4613503.html,附件,//div[@id='app'],成功,文件下载,1,144.14,
+http://www.bpf.cas.cn/zccw/201903/t20190315_4685469.html,标题,//div[@class='article clearfix']/h3,成功,国采中心来我院开展政府集中采购管理工作调研,1,232.82,
+http://www.bpf.cas.cn/zccw/201903/t20190315_4685469.html,正文内容,//article[@id='zoom'],成功,3月12日，中央国家机关政府采购中心（以下简称国采中心）喻立新副主任一行来我院开展政府集中采购管理工作调研，重点了解我院在物业管理服务采购等方面的管理情况，交流加强物业采购管理的意见和建议，以更好的服务科研工作。条件保障与财务局副局长曹凝副局长主持会议，高能所、国科大等6家单位相关业务负责同事参加。 　　曹凝副局长介绍了我院政府采购工作的基本情况。她指出，国采中心为我院政府集中采购方面提供了很多帮...,1,232.82,
+http://www.bpf.cas.cn/zccw/201903/t20190315_4685469.html,发文时间,"//div[@class='article clearfix']/div[contains(@class, 'article-info') and contains(text(), '时间：')][1]",失败,,0,232.82,
+http://www.bpf.cas.cn/zccw/201903/t20190315_4685469.html,发文机构,//div[@class='footerWrap'],成功,©1996 - 中国科学院 版权所有 京ICP备05002857号-1  京公网安备110402500047号  网站标识码bm48000017,1,232.82,
+http://www.bpf.cas.cn/zccw/201903/t20190315_4685469.html,附件,//div[@class='appendix']/following-sibling::a,失败,,0,232.82,
+https://www.cas.cn/zcjd/202208/t20220818_4844952.shtml,标题,//title,成功,关于印发《科技支撑碳达峰碳中和实施方案（2022—2030年）》的通知----中国科学院,1,201.5,
+https://www.cas.cn/zcjd/202208/t20220818_4844952.shtml,正文内容,//div[@class='ykjj_txt'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,201.5,
+https://www.cas.cn/zcjd/202208/t20220818_4844952.shtml,发文时间,//title,成功,关于印发《科技支撑碳达峰碳中和实施方案（2022—2030年）》的通知----中国科学院,1,201.5,
+https://www.cas.cn/zcjd/202208/t20220818_4844952.shtml,发文机构,//title,成功,关于印发《科技支撑碳达峰碳中和实施方案（2022—2030年）》的通知----中国科学院,1,201.5,
+https://www.cas.cn/zcjd/202208/t20220818_4844952.shtml,附件,,失败,,0,201.5,
+http://www.bpf.cas.cn/hqtxjs/201904/t20190412_4688655.html,标题,//div[@class='article clearfix']/following-sibling::h3[1],失败,,0,209.41,
+http://www.bpf.cas.cn/hqtxjs/201904/t20190412_4688655.html,正文内容,//article[@id='zoom'],成功,为充分总结“3H”工程实施七年多来取得的成效、经验和不足，进一步研讨谋划“十四五”期间“3H”工程建设思路和举措，条财局于4月8日在京组织开展“3H”工程总结研讨及推进工作交流。中科院党组成员、秘书长邓麦村出席并做总结讲话，条财局与各分院、合肥物质科学研究院、中国科学院大学、中国科学技术大学、行政管理局等单位分管“3H”工作的领导与相关处室负责同志参加。 　　各单位报告了本地区、本单位推进“3H”...,1,209.41,
+http://www.bpf.cas.cn/hqtxjs/201904/t20190412_4688655.html,发文时间,"//div[@class='article-info tc' and contains(text(), '时间：')]",失败,,0,209.41,
+http://www.bpf.cas.cn/hqtxjs/201904/t20190412_4688655.html,发文机构,"//div[@class='article-info tc' and contains(text(), '来源：')]",失败,,0,209.41,
+http://www.bpf.cas.cn/hqtxjs/201904/t20190412_4688655.html,附件,//div[@class='appendix'],成功,附件：,1,209.41,
+https://www.cae.cn/cae/html/main/col25/2021-01/04/20210104170949884134210_1.html,标题,/html/head/title,成功,中国工程院2018—2022年工作纲要,1,107.93,
+https://www.cae.cn/cae/html/main/col25/2021-01/04/20210104170949884134210_1.html,正文内容,//div[@class='top_text_main'],成功,希望两院院士作为科技界杰出代表，冲锋在前、勇挑重担，当好科技前沿的开拓者、重大任务的担纲者、青年人才成长的引领者、科学家精神的示范者，为我国科技事业发展再立新功！,2,107.93,
+https://www.cae.cn/cae/html/main/col25/2021-01/04/20210104170949884134210_1.html,发文时间,//div[@class='top_left_date'],成功,,1,107.93,
+https://www.cae.cn/cae/html/main/col25/2021-01/04/20210104170949884134210_1.html,发文机构,//div[@class='top_text_from'],成功,——习近平总书记在全国科技大会、国家科学技术奖励大会、两院院士大会上的讲话,2,107.93,
+https://www.cae.cn/cae/html/main/col25/2021-01/04/20210104170949884134210_1.html,附件,,失败,,0,107.93,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkzn/201412/t20141201_4265561.shtml,标题,//title,成功,中国科学院机关信息公开指南----中国科学院,1,192.94,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkzn/201412/t20141201_4265561.shtml,正文内容,//div[@class='ykjj_txt'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,192.94,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkzn/201412/t20141201_4265561.shtml,发文时间,"//div[contains(@class, 'time') or contains(@class, 'date')]",失败,,0,192.94,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkzn/201412/t20141201_4265561.shtml,发文机构,"//div[contains(@class, 'org') or contains(@class, 'source')]",失败,,0,192.94,
+https://www.cas.cn/xxgkml/xxgkgzxx/xggd/xxgkzn/201412/t20141201_4265561.shtml,附件,"//a[contains(text(), '附件') or contains(@href, '.doc') or contains(@href, '.pdf')]",成功,中国科学院机关信息公开申请表（公民申请表）,3,192.94,
+https://www.cas.cn/xxgkml/xxgksq/201412/t20141201_4265605.shtml,标题,/html/head/title,成功,中国科学院机关信息公开申请办理方法----中国科学院,1,135.22,
+https://www.cas.cn/xxgkml/xxgksq/201412/t20141201_4265605.shtml,正文内容,//div[@class='ykjj_txt'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,135.22,
+https://www.cas.cn/xxgkml/xxgksq/201412/t20141201_4265605.shtml,发文时间,"//div[contains(@class,'time')]",失败,,0,135.22,
+https://www.cas.cn/xxgkml/xxgksq/201412/t20141201_4265605.shtml,发文机构,"//div[contains(@class,'source') or contains(@class,'org')]",失败,,0,135.22,
+https://www.cas.cn/xxgkml/xxgksq/201412/t20141201_4265605.shtml,附件,"//a[contains(@href,'.pdf') or contains(@href,'.doc') or contains(@href,'.xls')]",成功,中国科学院机关信息公开申请表（公民申请表）,2,135.22,
+https://www.cas.cn/xxgkml/xxgklxfs/201412/t20141201_4265610.shtml,标题,//title,成功,信息公开联系方式----中国科学院,1,191.27,
+https://www.cas.cn/xxgkml/xxgklxfs/201412/t20141201_4265610.shtml,正文内容,//div[@class='ykjj_txt'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,191.27,
+https://www.cas.cn/xxgkml/xxgklxfs/201412/t20141201_4265610.shtml,发文时间,//div[@class='top2'],成功,"加快打造原始创新策源地，加快突破关键核心技术，努力抢占科技制高点，为把我国建设成为世界科技强国作出新的更大的贡献。
+——习近平总书记在致中国科学院建院70周年贺信中作出的“两加快一努力”重要指示要求
+
+
+面向世界科技前沿、面向经济主战场、面向国家重大需求、面向人民生命健康，率先实现科学技术跨越发展，率先建成国家创新人才高地，率先建成国家高水平科技智库，率先建设国际一流科研机构。
+——中国科学院办院...",1,191.27,
+https://www.cas.cn/xxgkml/xxgklxfs/201412/t20141201_4265610.shtml,发文机构,//div[@class='fzqh_txt'],成功,"加快打造原始创新策源地，加快突破关键核心技术，努力抢占科技制高点，为把我国建设成为世界科技强国作出新的更大的贡献。
+——习近平总书记在致中国科学院建院70周年贺信中作出的“两加快一努力”重要指示要求",2,191.27,
+https://www.cas.cn/xxgkml/xxgklxfs/201412/t20141201_4265610.shtml,附件,,失败,,0,191.27,
+https://www.cas.cn/sygz/202504/t20250415_5064088.shtml,标题,//title,成功,吴朝晖赴部分院属单位专题调研规划及改革工作----中国科学院,1,109.47,
+https://www.cas.cn/sygz/202504/t20250415_5064088.shtml,正文内容,//div[@class='ykjj'],成功,1949年，伴随着新中国的诞生，中国科学院成立。　　作为国家在科学技术方面的最高学术机构和全国自然科学与高新技术的综合研究与发展中心，建院以来，中国科学院时刻牢记使命，与科学共进，与祖国同行，以国家富强、人民幸福为己任，人才辈出，硕果累累，为我国科技进步、经济社会发展和国家安全做出了不可替代的重要贡献。 更多简介 +,1,109.47,
+https://www.cas.cn/sygz/202504/t20250415_5064088.shtml,发文时间,,失败,,0,109.47,
+https://www.cas.cn/sygz/202504/t20250415_5064088.shtml,发文机构,,失败,,0,109.47,
+https://www.cas.cn/sygz/202504/t20250415_5064088.shtml,附件,,失败,,0,109.47,
+http://www.bpf.cas.cn/zypz/201811/t20181112_4670006.html,标题,//h3[1],成功,资源配置,2,254.7,
+http://www.bpf.cas.cn/zypz/201811/t20181112_4670006.html,正文内容,//article[@id='zoom'],成功,2018年2月28日，美国国家科学基金会（National Science Foundation，NSF）向国会提交了2019财年预算，预算申请额为74.7亿美元，与2017财年已批准预算基本持平。 　　与2017年实际资助情况相比，2019财年预算申请在资金分配方面做了一定调整（图1）。在经费构成方面，2019财年预算将把超过91％的预算用于资助科学研究（基础研究和应用研究）、设施建设（研发设施...,1,254.7,
+http://www.bpf.cas.cn/zypz/201811/t20181112_4670006.html,发文时间,"//div[contains(@class,'article-info') and contains(text(),'时间：')][1]",失败,,0,254.7,
+http://www.bpf.cas.cn/zypz/201811/t20181112_4670006.html,发文机构,//title,成功,促进创新和基础设施建设——美国NSF 2019财年预算概览----中国科学院条件保障与财务局,1,254.7,
+http://www.bpf.cas.cn/zypz/201811/t20181112_4670006.html,附件,//div[@class='appendix']/following-sibling::a,失败,,0,254.7,
+https://casad.cas.cn/xbjs2022/gzzd/zx/202504/t20250425_5066166.html,标题,/html/head/title,成功,中国科学院院士增选工作实施办法（试行）----中国科学院学部与院士,1,159.94,
+https://casad.cas.cn/xbjs2022/gzzd/zx/202504/t20250425_5066166.html,正文内容,//div[@class='ysdh_jjtxt'],成功,"中国科学院院士（以下简称院士）是国家设立的科学技术方面的最高学术称号，为终身荣誉。
+院士增选和外籍院士选举每两年一次。遵守宪法和法律，热爱祖国、品行端正、学风正派的中国公民，在科学技术领域取得了系统性和创造性的重要成就，并为中国科学技术事业或人类文明进步做出了突出贡献，可被推荐并当选为院士。在国际上具有很高学术地位，对促进中外科技合作与交流作出突出贡献的非中国公民，可被推荐并当选为外籍院士。",5,159.94,
+https://casad.cas.cn/xbjs2022/gzzd/zx/202504/t20250425_5066166.html,发文时间,"//div[contains(@class,'fbtime') or contains(@class,'publish-date')]",失败,,0,159.94,
+https://casad.cas.cn/xbjs2022/gzzd/zx/202504/t20250425_5066166.html,发文机构,"//div[contains(@class,'fborg') or contains(@class,'publish-org')]",失败,,0,159.94,
+https://casad.cas.cn/xbjs2022/gzzd/zx/202504/t20250425_5066166.html,附件,"//a[contains(@href,'.pdf') or contains(@href,'.doc') or contains(@href,'.xls')]",失败,,0,159.94,
